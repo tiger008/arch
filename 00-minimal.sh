@@ -2,7 +2,7 @@ pacman -Syu \
 syslinux \
 sudo \
 iw \
-wpa-supplicant \
+wpa_supplicant \
 wireless_tools \
 dialog \
 vim \
