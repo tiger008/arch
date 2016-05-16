@@ -1,0 +1,2 @@
+yaourt -S exemple &&
+echo -c "\e[1mEXAMPLE \e[32mDONE\e[39m"
