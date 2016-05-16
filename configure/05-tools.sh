@@ -11,5 +11,5 @@ yaourt -S chromium \
 	xarchiver \
 	pinta \
 	terminator \
-	valgrind &&
+	valgrind && \
 echo -c "\e[1mEXAMPLE \e[32mDONE\e[39m"
