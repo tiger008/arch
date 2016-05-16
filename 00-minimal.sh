@@ -20,7 +20,7 @@ alsa-utils \
 alsa-oss \
 zip \
 unzip \
-unrar &&
-syslinux-install_update -iam &&
-echo "don't forget to edit syslinux.cfg" &&
+unrar && \
+syslinux-install_update -iam && \
+echo "don't forget to edit syslinux.cfg" && \
 echo -c "\e[1mMinimal install \e[32mDONE\e[39m"
