@@ -1,17 +1,19 @@
-CF=./configfiles/
 
 # Emacs config
-cp $(CF).emacs ~/ && \
+cp ./configfiles/.emacs ~/ && \
 git clone https://github.com/ocaml/tuareg ~/.emacs.d/tuareg && \
 echo -c "\e[1mEmacs \e[32mDONE\e[39m"
 # Bashrc config
-cp $(CF).bashrc ~/ && \
+cp ./configfiles/.bashrc ~/ && \
 echo -c "\e[1mBashrc \e[32mDONE\e[39m"
 # Vim config
-cp $(CF).vimrc ~/ && \
+cp ./configfiles/.vimrc ~/ && \
 mkdir ~/.vim && \
 mkdir ~/.vim/plugin && \
-cp $(CF)42header.vim ~/.vim/plugin && \
-echo -c "\e[1mVimrc \e[32mDONE\e[39m"
+cp ./configfiles/42header.vim ~/.vim/plugin && \
+echo -c "\e[1mVimrc \e[32mDONE\e[39m" && \
+sleep 2
+# Disable BEEP
+sudo echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf && \
 # Pacman
 sudo vim /etc/pacman.conf
