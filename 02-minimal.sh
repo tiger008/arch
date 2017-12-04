@@ -19,6 +19,7 @@ alsa-utils \
 alsa-oss \
 zip \
 unzip \
-unrar && \
-echo "Execute syslinux-install_update -iam if mbr mode and don't forget to edit syslinux.cfg" && \
+unrar \
+intel-ucode && \
+echo "Execute syslinux-install_update -iam if mbr mode and don't forget to edit syslinux.cfg adding intel-ucode" && \
 echo "Minimal install"
