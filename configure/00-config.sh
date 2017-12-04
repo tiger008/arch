@@ -9,6 +9,6 @@ cp ./configfiles/42header.vim ~/.vim/plugin && \
 echo -c "Vimrc DONE" && \
 sleep 2
 # Disable BEEP
-sudo echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf && \
+sudo sh -c "echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf" && \
 # Pacman
 sudo vim /etc/pacman.conf
