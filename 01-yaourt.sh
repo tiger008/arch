@@ -8,4 +8,4 @@ makepkg -si && \
 cd .. && \
 rm -rf package-query && \
 rm -rf yaourt && \
-echo -c "\e[1mYaourt \e[32mDONE\e[39m"
+echo "Yaourt DONE"
