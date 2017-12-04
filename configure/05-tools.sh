@@ -7,4 +7,4 @@ yaourt -S chromium \
 	krita \
 	terminator \
 	valgrind && \
-echo "EXAMPLE DONE"
+echo "Tools DONE"
