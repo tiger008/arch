@@ -15,12 +15,10 @@ exfat-utils \
 mtools \
 gparted \
 wget \
-emacs \
 alsa-utils \
 alsa-oss \
 zip \
 unzip \
 unrar && \
-syslinux-install_update -iam && \
-echo "don't forget to edit syslinux.cfg" && \
-echo -c "\e[1mMinimal install \e[32mDONE\e[39m"
+echo "Execute syslinux-install_update -iam if mbr mode and don't forget to edit syslinux.cfg" && \
+echo "Minimal install"
