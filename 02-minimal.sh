@@ -20,6 +20,7 @@ alsa-oss \
 zip \
 unzip \
 unrar \
+git \
 intel-ucode && \
 echo "Execute syslinux-install_update -iam if mbr mode and don't forget to edit syslinux.cfg adding intel-ucode" && \
 echo "Minimal install"
