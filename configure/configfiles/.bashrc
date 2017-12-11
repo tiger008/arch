@@ -8,9 +8,9 @@
 export LANG=fr_FR.UTF-8
 export MAIL42=tperraut@student.42.fr
 export USER42=tperraut
-export EDITOR=vim
+export EDITOR=nvim
 # Yaourt editor
-export VISUAL=vim
+export VISUAL=nvim
 #export WINEARCH=win32
 
 # Pimp
@@ -28,7 +28,7 @@ alias gp='git push'
 alias gc='git commit'
 alias gs='git status'
 alias gcl='git clone'
-alias cim='vim -p'
-alias bim='vim -p'
-alias vim='vim -p'
+alias cim='nvim -p'
+alias bim='nvim -p'
+alias vim='nvim -p'
 alias pacman='yaourt'
