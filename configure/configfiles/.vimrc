@@ -9,7 +9,7 @@ set mouse=n
 set nu
 syntax on
 set autoindent
-set clipboard=unamed
+"set clipboard=unamed
 set listchars=tab:>·,trail:_
 set list
 set tabstop=4
