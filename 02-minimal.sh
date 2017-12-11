@@ -6,6 +6,7 @@ wpa_supplicant \
 wireless_tools \
 dialog \
 vim \
+nvim \
 networkmanager \
 network-manager-applet \
 gnome-keyring \
