@@ -3,12 +3,12 @@ cp ./configfiles/.bashrc ~/ && \
 echo "Bashrc DONE"
 # Vim config
 cp ./configfiles/.vimrc ~/ && \
-mkdir ~/.vim && \
-mkdir ~/.vim/plugin && \
+mkdir -p ~/.vim && \
+mkdir -p ~/.vim/plugin && \
 cp ./configfiles/42header.vim ~/.vim/plugin && \
-echo -c "Vimrc DONE" && \
-sleep 2
+echo "Vimrc DONE" && \
+#NeoVim config
+mkdir -p ~/.config/nvim && \
+cp ./configfiles/init.vim ~/.config/nvim && \
 # Disable BEEP
-sudo sh -c "echo "blacklist pcspkr" > /etc/modprobe.d/nobeep.conf" && \
-# Pacman
-sudo vim /etc/pacman.conf
+echo "blacklist pcspkr" | sudo tee /etc/modprobe.d/nobeep.conf
