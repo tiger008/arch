@@ -34,4 +34,7 @@ alias vim='nvim -p'
 alias pacman='yaourt'
 
 # Functions
-tgcl(){git clone "https://tperraut@github.com/tperraut/$1"}
+tgcl()
+{
+  git clone "https://tperraut@github.com/tperraut/$1"
+}
