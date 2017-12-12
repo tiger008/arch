@@ -13,6 +13,7 @@ gnome-keyring \
 ntfs-3g \
 dosfstools \
 exfat-utils \
+gvfs \
 mtools \
 gparted \
 wget \
