@@ -4,7 +4,7 @@ yaourt -S chromium \
 	jre8-openjdk \
 	openssh \
 	xarchiver \
-	krita \
 	terminator \
+	htop \
 	valgrind && \
 echo "Tools DONE"

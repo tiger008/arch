@@ -14,6 +14,5 @@ set listchars=tab:>·,trail:_
 set list
 set tabstop=4
 set shiftwidth=4
-set columns=86
 colorscheme elflord
 set completeopt=menuone,longest,preview
